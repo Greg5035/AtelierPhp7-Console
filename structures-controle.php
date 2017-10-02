@@ -30,28 +30,29 @@ switch ($pays) {
         break;        
 }
   
-echo "\n"
+echo "\n";
 //for traditionnel
-$tab = array(); // $tab = [];
+ // $tab = [];
+$tab = array();
 for ($i=0 ; $i<10 ; $i++) {
     $tab[] = $i * 10;
 }
 printf("Tab : %s\n", implode(",",$tab));
 
 //for americain
-foreach ($tab as =valAct) {
+foreach ($tab as $valAct) {
     printf("\n",$valAct);
 } 
 
 //while précondition
-echo "\n"
+echo "\n";
 $a=0;
 while($a<10) {
-    $a++
+    $a++;
 }
 
 //do while postcondition
 $a=0;
-do(
-    $a++;    ) while ($a<10)  
-}
+do{$a++;}
+
+while ($a<10)  ;
