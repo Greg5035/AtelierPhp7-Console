@@ -36,4 +36,5 @@ $tab3 = array_values($pays);
 sort($tab3);
 $tab3 = array_reverse($tab3);
 echo implode("," , $tab3);
+echo "a";
 
